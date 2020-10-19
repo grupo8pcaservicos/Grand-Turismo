@@ -130,3 +130,10 @@ form label {
     color: black;
     font-weight: bold;
 }
+footer#rodape {
+  clear: both;
+  border-top: 1px solid #606060;
+}
+footer#rodape p {
+  text-align: center;
+}
