@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5; 
+    background-image: url(/imagens/home2.png);     
+    background-size: 100% 100%;
+    background-position: inherit ;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  h1 {
+    /*font-family: */
+    width: 500px;
+    margin: 100px auto 20px;
+    /*color: ;*/
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  .nav {
+    width: 469px;
+    margin: 40px auto;
+    background: black;
+    opacity: 0.8;
+    color: white;
+  }
+
+  .nav a {
+    display: block;
+    padding: 0 16px;
+    line-height: inherit;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  } 
+
+  .nav__menu {
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .nav__menu-item {
+    display: inline-block;
+    position: relative;
+  }
+
+  .nav__menu-item:hover {
+    background-color: orange;
+  }
+
+  .nav__menu-item:hover .nav__submenu {
+    display: block;
+  }
+
+  .nav__submenu {
+    font-weight: 300;
+    text-transform: none;
+    display: none;
+    position: absolute;
+    width: 220px;
+    background-color: orange;
+    opacity: 0.9;
+    font-weight: 400;
+  }
+  
+  .nav__submenu-item:hover {
+    background: rgba(0, 0, 0, 0.1);  
+  }
+  form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    max-width: 100px;
+    position: relative;
+}
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    border: 1px solid;
+}
+ 
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #646474;
+    box-shadow: 5px 0px 9px #FFFF00;
+    background-color: #97a5a5;
+    color: black;
+    font-weight: bold;
+}
+ 
+.submit input {
+    background-color: #646474;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+ 
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+ 
+form label {
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+}
