@@ -84,6 +84,34 @@ html {
   .nav__submenu-item:hover {
     background: rgba(0, 0, 0, 0.1);  
   }
+  table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+}
+table#tabelaspec td.ce {
+    color: white;
+    vertical-align: top;
+    font-weight: bold;
+}
+table#tabelaspec caption {
+    
+    font-size: 13pt;
+    font-weight: bolder;
+}
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+
+}
   footer#rodape {
     clear: both;
     border-top: 1px solid #606060;
