@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5; 
+    background-image: url(/imagens/home2.png);     
+    background-size: 100% ;
+    background-position: fixed;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  h1 {
+    /*font-family: */
+    width: 500px;
+    margin: 100px auto 20px;
+    /*color: ;*/
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  .nav {
+    width: 469px;
+    margin: 40px auto;
+    background: black;
+    opacity: 0.8;
+    color: white;
+  }
+
+  .nav a {
+    display: block;
+    padding: 0 16px;
+    line-height: inherit;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  } 
+
+  .nav__menu {
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .nav__menu-item {
+    display: inline-block;
+    position: relative;
+  }
+
+  .nav__menu-item:hover {
+    background-color: orange;
+  }
+
+  .nav__menu-item:hover .nav__submenu {
+    display: block;
+  }
+
+  .nav__submenu {
+    font-weight: 300;
+    text-transform: none;
+    display: none;
+    position: absolute;
+    width: 220px;
+    background-color: orange;
+    opacity: 0.9;
+    font-weight: 400;
+  }
+  
+  .nav__submenu-item:hover {
+    background: rgba(0, 0, 0, 0.1);  
+  }
+  table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    color: white;
+}
+table#tabelaspec td.ce {
+    color: white;
+    vertical-align: top;
+    font-weight: bold;
+}
+table#tabelaspec caption {
+    font-size: 13pt;
+    font-weight: bolder;
+}
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+
+}
+  footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+  }
+  footer#rodape p {
+    text-align: center;
+  }
