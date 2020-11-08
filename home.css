@@ -13,9 +13,12 @@ html {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 1.5; 
-    background-image: url(imagens/home2.png);     
-    background-size: 100% 100%;
-    background-position: inherit ;
+    background-image: url(imagens/home2.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;       
+    background-position: inherit;
   }
   
   nav ul {
@@ -31,7 +34,7 @@ html {
     margin: 100px auto 20px;
     /*color: ;*/
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     
   }
   
@@ -98,9 +101,12 @@ html {
     color: rgb(255, 255, 255);
 }
 .text-first {
-  border: 2px groove grey;
+  /*border: 2px groove grey;*/
   text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
 }
+
 .text-logo {
   text-align: center;
 }
