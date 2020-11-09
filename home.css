@@ -13,9 +13,9 @@ html {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 1.5; 
-<<<<<<< HEAD
     /*background-image: url(imagens/home2.png);*/;   
     background-size: 100% 100%;
+<<<<<<< HEAD
     background-position: inherit;
 =======
     background-image: url(imagens/cristo-9.jpg);
@@ -26,6 +26,9 @@ html {
     background-position: inherit;
     
 >>>>>>> 89e4cdafee6c709a56c497a9644e48b97ed9884c
+=======
+    background-position: inherit ;
+>>>>>>> 8a1de99a7a6adbfb09ddeffa34e6700f4c062c9a
   }
   
   nav ul {
