@@ -5,6 +5,8 @@
   }
   body {
     background: #555;
+    background-image: url(/imagens/cristo-9.jpg);
+    background-size: 100%;
   }
   header {
     position: relative;
@@ -18,7 +20,7 @@
     font: 18px verdana;
     color: #6ddb07;
     float: left;
-    width: 15%;
+    width: 19%;
   }
   .logo a {
     color: #6ddb07;
