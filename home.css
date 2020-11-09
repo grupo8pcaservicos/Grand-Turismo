@@ -65,7 +65,7 @@
   }
   #cssmenu > ul > li > a {
     padding: 17px;
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 1px;
     text-decoration: none;
     color: #ddd;
@@ -138,11 +138,12 @@
   #cssmenu ul ul li a {
     border-bottom: 1px solid rgba(150, 150, 150, 0.15);
     padding: 11px 15px;
-    width: 170px;
-    font-size: 12px;
+    width: 180px;
+    font-size: 12.9px;
     text-decoration: none;
     color: #ddd;
-    font-weight: 400;
+    font-weight: 450;
+    font-weight: bold;
   }
   #cssmenu ul ul li:last-child > a,
   #cssmenu ul ul li.last-item > a {

@@ -1,50 +1,82 @@
 document.write(`
+
 <header>
 <nav id='cssmenu'>
-  <div class="logo"><a href="index.html"><img src="/imagens/Logobeta2.png" width="40px" height="23.5px">Grand Turismo</a></div>
+  <div class="logo"><a href="/home.html"><img src="/imagens/Logobeta2.png" width="40px" height="23.5px">Grand Turismo</a></div>
   <div id="head-mobile"></div>
   <div class="button"></div>
   <ul>
-    <li class='active'><a href='#'>HOME</a></li>
-    <li><a href='#'>SOBRE</a></li>
+    <li class='active'><a href='/home.html'>HOME</a></li>
+    <li><a href='/sobre/sobre.html'>SOBRE</a></li>
+
     <li><a href='#'>LOCAIS</a>
       <ul>
-        <li><a href='#'>ARQUITETURAS E PAISAGENS</a>
+        <li><a href='#'>Arquitetura e Paisagens</a>
           <ul>
-            <li><a href='/conteudohtml/arquipaisagem/catedral/catedral.html'>CATEDRAL</a></li>
-            <li><a href='#'>Sub Product</a></li>
+            <li><a href='/dados/arquipaisagem/catedral.html'>Catedral</a></li>
+            <li><a href='/dados/arquipaisagem/cidade_das_artes.html'>Cidade das Artes</a></li>
+            <li><a href='/dados/arquipaisagem/cristo_redentor.html'>Cristo Redentor</a></li>
+            <li><a href='/dados/arquipaisagem/pao_de_acucar.html'>Pão de Açucar</a></li>
+            <li><a href='/dados/arquipaisagem/pavilhao.html'>Pavilhão</a></li>
           </ul>
         </li>
-        <li><a href='#'>MUSEUS</a>
+
+        <li><a href='#'>Museus</a>
           <ul>
-            <li><a href='#'>Sub Product</a></li>
-            <li><a href='#'>Sub Product</a></li>
+            <li><a href='/dados/museus/museu_de_arte_moderna.html'>Museu de Arte Moderna</a></li>
+            <li><a href='/dados/museus/museu_de_arte.html'>Museu de Arte</a></li>
+            <li><a href='/dados/museus/museu_do_amanha.html'>Museu do Amanhã</a></li>
+            <li><a href='/dados/museus/museu_nacional.html'>Museu Nacional</a></li>
+            <li><a href='/dados/museus/palacio_do_catete.html'>Palácio do Catete</a></li>
           </ul>
         </li>
-        <li><a href='#'>PRAÇAS</a>
+
+        <li><a href='#'>Praças</a>
           <ul>
-            <li><a href='#'>Sub Product</a></li>
-            <li><a href='#'>Sub Product</a></li>
+            <li><a href='/dados/praças/cinelandia.html'>Cinelândia</a></li>
+            <li><a href='/dados/praças/general_tiburcio.html'>General Tiburcio</a></li>
+            <li><a href='/dados/praças/largo_carioca.html'>Largo da Carioca</a></li>
+            <li><a href='/dados/praças/praca_da_cruz_vermelha.html'>Praça da Cruz Vermelha</a></li>
+            <li><a href='/dados/praças/praca_paris.html'>Praça Paris</a></li>
+            <li><a href='/dados/praças/praca_xv.html'>Praça XV</a></li>
           </ul>
         </li>
-        <li><a href='#'>PRAIAS</a>
+
+        <li><a href='#'>Praias</a>
           <ul>
-            <li><a href='#'>Sub Product</a></li>
-            <li><a href='#'>Sub Product</a></li>
+            <li><a href='/dados/praias/copacabana.html'>Copacabana</a></li>
+            <li><a href='/dados/praias/grumari.html'>Grumari</a></li>
+            <li><a href='/dados/praias/ipanema.html'>Ipanema</a></li>
+            <li><a href='/dados/praias/leblon.html'>Leblon</a></li>
+            <li><a href='/dados/praias/prainha.html'>Prainha</a></li>
           </ul>
         </li>
-        <li><a href='#'>RESTAURANTES</a>
+
+        <li><a href='#'>Restaurantes</a>
           <ul>
-            <li><a href='#'>Sub Product</a></li>
-            <li><a href='#'>Sub Product</a></li>
+            <li><a href='/dados/restaurantes/cipriani.html'>Cipriani</a></li>
+            <li><a href='/dados/restaurantes/esplanada_grill.html'>Esplanada Grill</a></li>
+            <li><a href='/dados/restaurantes/fasano_al_mare.html'>Fasano al Mare</a></li>
+            <li><a href='/dados/restaurantes/laguiole.html'>Laguiole</a></li>
+            <li><a href='/dados/restaurantes/lasai.html'>Lasai</a></li>
           </ul>
         </li>
       </ul>
     </li>
-    <li><a href='#'>MULTIMIDIAS</a></li>
-    <li><a href='#'>BLOG</a></li>
-    <li><a href='#'>CONTATO</a></li>
+
+    <li><a href='#'>MULTIMIDIAS</a>
+      <ul>
+          <li><a href='/multimidia_dados/fotos.html'>Fotos</a></li>
+          <li><a href='/multimidia_dados/videos.html'>Videos</a></li>
+      </ul>
+    </li>
+
+    <li><a href='/blog/blog.html'>BLOG</a></li>
+
+    <li><a href='/contato/contato.html'>CONTATO</a></li>
   </ul>
+
 </nav>
 </header>
+
 `);
