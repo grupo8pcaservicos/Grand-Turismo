@@ -4,13 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale Conosco</title>
-    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="/contato.css">
     <script language= "javascript"  src="/home.js"></script>
     <script src="/menu.js"></script>     
 </head>
 
 <body>
-
+    <section id="contact">
+  
+        <h1 class="section-header">CONTATO</h1>
+        
+        <div class="contact-wrapper">
+          
+          
+          
+          <form class="form-horizontal" role="form" method="post" action="contact.php">
+             
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NOME" name="name" value="">
+              </div>
+            </div>
+      
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="">
+              </div>
+            </div>
+      
+            <textarea class="form-control" rows="10" placeholder="MENSSAGEM" name="message"></textarea>
+            
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="ENVIAR">
+              <div class="button">
+                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+              </div>
+            
+            </button>
+            
+          </form>
+        
+            <div class="direct-contact-container">
+      
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">DUQUE DE CAXIAS - RJ</span></i></li>
+                
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:(21)974839052" title="Give me a call">(21) 974839052</a></span></i></li>
+                
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:jorgeotaviot@hotmail.com" title="Send me an email">jorgeotaviot@hotmail.com</a></span></i></li>
+      
+            </div>
+          
+        </div>
+        
+      </section>  
+        
 </body>
 
 </html>
