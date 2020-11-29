@@ -17,16 +17,16 @@ document.write(`
             <li><a href='/dados/arquipaisagem/cidade_das_artes.html'>Cidade das Artes</a></li>
             <li><a href='/dados/arquipaisagem/cristo_redentor.html'>Cristo Redentor</a></li>
             <li><a href='/dados/arquipaisagem/pao_de_acucar.html'>Pão de Açucar</a></li>
-            <li><a href='/dados/arquipaisagem/pavilhao.html'>Pavilhão</a></li>
+            <li><a href='/dados/arquipaisagem/pavilhao.html'>Feira de São Cristovão</a></li>
           </ul>
         </li>
 
         <li><a href='#'>Museus</a>
           <ul>
             <li><a href='/dados/museus/museu_de_arte_moderna.html'>Museu de Arte Moderna</a></li>
-            <li><a href='/dados/museus/museu_de_arte.html'>Museu de Arte</a></li>
+            <li><a href='/dados/museus/museu_de_arte.html'>Museu de Arte do Rio</a></li>
             <li><a href='/dados/museus/museu_do_amanha.html'>Museu do Amanhã</a></li>
-            <li><a href='/dados/museus/museu_nacional.html'>Museu Nacional</a></li>
+            <li><a href='/dados/museus/museu_nacional.html'>Museu de Belas Artes</a></li>
             <li><a href='/dados/museus/palacio_do_catete.html'>Palácio do Catete</a></li>
           </ul>
         </li>

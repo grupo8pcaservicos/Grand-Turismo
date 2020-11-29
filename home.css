@@ -6,9 +6,9 @@
   }
   body {
     background: #555;
-    background-image: url(/imagens/cristo-9.jpg);
+    background-image: url(/imagens/rj4.jpg);
     background-size: 100%;
-  
+    background-repeat: no-repeat;
   }
   header {
     position: relative;
@@ -37,13 +37,14 @@
     position: relative;
     z-index: 123;
     padding: 10px;
-    font: 18px verdana;
+    font: 19px verdana;
     color: #6ddb07;
     float: left;
     width: 19%;
   }
   .logo a {
-    color: #6ddb07;
+    color: #87CEFA;
+    font-weight: 500;
   }
   nav {
     position: relative;
@@ -99,7 +100,7 @@
   #cssmenu ul li.active:hover,
   #cssmenu ul li.active,
   #cssmenu ul li.has-sub.active:hover {
-    background: #448d00 !important;
+    background: #87CEFA !important;
     -webkit-transition: background 0.3s ease;
     -ms-transition: background 0.3s ease;
     transition: background 0.3s ease;
@@ -159,11 +160,11 @@
     border-bottom: 1px solid rgba(150, 150, 150, 0.15);
     padding: 11px 15px;
     width: 180px;
-    font-size: 12.9px;
+    font-size: 12px;
     text-decoration: none;
     color: #ddd;
-    font-weight: 450;
     font-weight: bold;
+    font-weight: 545;
   }
   #cssmenu ul ul li:last-child > a,
   #cssmenu ul ul li.last-item > a {
@@ -414,42 +415,66 @@
       border-top: none;
     }
   }
-  table#tabelaspec {
-    border: 1px solid #606060;
+
+table#tabelaspec {
+    border: 1px solid black;
     border-spacing: 0;
     margin-left: auto;
     margin-right: auto;
-    /*background-color:#1C1C1C;
-    opacity: 0.7;*/
+    margin-top: 2.5%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
+table#tabelaspec caption {
+  margin-bottom: 3%;
+}
+
 table#tabelaspec td {
-    border: 1px solid #606060;
+    border: 0px solid black;
     padding: 10px;
 }
+
 table#tabelaspec td.ce {
     color: white;
-    vertical-align: top;
-    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    width: 50px;
 }
 
 table#tabelaspec td.cd {
-  color: white;
+    color: white;
+    font-size: 15px;
+    width: 500px;
 }
-table#tabelaspec caption {
-    
+
+table#tabelaspec caption {    
     font-size: 13pt;
     font-weight: bolder;
     color: white;
 }
+
 table#tabelaspec caption span {
     display: block;
     float: right;
     color: black;
     font-size: 8pt;
     margin-top: 10px;
-
 }
+
 iframe {
-  margin-left: 200px;
-  margin-top: 5px;
+  margin-top: 2%;
+  margin-left: 29%;
+  width: 570px;
+  height: 300px;
+  border: 1px solid black
+}
+
+p.text-logo {
+  margin-top: 20%;
+}
+
+#rodape {
+  margin-top: 35%;
 }
