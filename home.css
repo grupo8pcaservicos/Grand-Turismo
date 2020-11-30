@@ -42,10 +42,16 @@
     float: left;
     width: 19%;
   }
+
   .logo a {
-    color: #87CEFA;
+    color: #FF0000;
     font-weight: 500;
   }
+
+  /*#turismo {
+    color:;
+  }*/
+
   nav {
     position: relative;
     width: 980px;
@@ -100,7 +106,7 @@
   #cssmenu ul li.active:hover,
   #cssmenu ul li.active,
   #cssmenu ul li.has-sub.active:hover {
-    background: #87CEFA !important;
+    background: #000080 !important;
     -webkit-transition: background 0.3s ease;
     -ms-transition: background 0.3s ease;
     transition: background 0.3s ease;
