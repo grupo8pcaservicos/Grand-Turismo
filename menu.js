@@ -67,11 +67,8 @@ document.write(`
     <li><a href='#'>MULTIMIDIAS</a>
       <ul>
           <li><a href='/multimidia_dados/fotos.html'>Fotos</a></li>
-          <li><a href='/multimidia_dados/videos.html'>Videos</a></li>
       </ul>
     </li>
-
-    <li><a href='/blog/blog.html'>BLOG</a></li>
 
     <li><a href='/contato/contato.html'>CONTATO</a></li>
   </ul>
