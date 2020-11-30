@@ -9,6 +9,9 @@
     background-image: url(/imagens/rj2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
   }
   header {
     position: relative;
