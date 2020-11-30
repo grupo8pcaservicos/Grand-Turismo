@@ -453,6 +453,7 @@ table#tabelaspec td.cd {
     color: white;
     font-size: 15px;
     width: 500px;
+    text-align: justify;
 }
 
 table#tabelaspec caption {    
@@ -460,6 +461,16 @@ table#tabelaspec caption {
     font-weight: bolder;
     color: white;
 }
+
+table#tabelaspec caption#hist {
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid black;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2%;
+  text-align: justify;      
+}
+
 
 table#tabelaspec caption span {
     display: block;
