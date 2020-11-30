@@ -5,23 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale Conosco</title>
     <link rel="stylesheet" href="/home.css">
-    <link rel="stylesheet" href="/contato/contato.css">
     <script language= "javascript"  src="/home.js"></script>
-    <script src="/menu.js"></script>     
+    <script src="/menu.js"></script> 
+    <link rel="stylesheet" href="/styles.css"> 
+    <script language= "javascript" src="/contato.js"></script>   
 </head>
 
 <body>
-  <div class="container">  
-    <h3>Fale Conosco</h3>
-    <form action="#" class="form-contact" method="post" tabindex="1">  
-       <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />  
-       <input type="email" class="form-contact-input" name="email" placeholder="Email" required />  
-       <input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />  
-       <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>  
-       <button type="submit" class="form-contact-button">Enviar</button>  
-    </form>  
-  </div>
-
+  <section id="contact">
+    <div class="content">
+      <div id="form">
+        <form action="" id="contactForm" method="post">
+          <span>Name</span>
+          <input type="text" name="name" class="name" placeholder="Enter your name" tabindex=1 />
+          <span>Email</span>
+          <input type="text" name="email" class="email" placeholder="Enter your email" tabindex=2 />
+          <span id="captcha"></span>
+          <input type="text" name="captcha" class="captcha" maxlength="4" size="4" placeholder="Enter captcha code" tabindex=3 />
+          <span>Message</span>
+          <textarea class="message" placeholder="Enter your message" tabindex=4></textarea>
+          <input type="submit" name="submit" value="Send e-mail" class="submit" tabindex=5>
+        </form>
+      </div>
+</section>
+        
 </body>
 
 </html>
