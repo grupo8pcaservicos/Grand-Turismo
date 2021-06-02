@@ -6,7 +6,7 @@ document.write(`
   <div id="head-mobile"></div>
   <div class="button"></div>
   <ul>
-    <li class='active'><a href='/home.html'>HOME</a></li>
+    <li class='active'><a href='/index.html'>HOME</a></li>
     <li><a href='/sobre/sobre.html'>SOBRE</a></li>
 
     <li><a href='#'>LOCAIS</a>
