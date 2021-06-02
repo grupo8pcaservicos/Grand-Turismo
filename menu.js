@@ -2,7 +2,7 @@ document.write(`
 
 <header>
 <nav id='cssmenu'>
-  <div class="logo"><a href="/home.html"><img src="/imagens/Logobeta2.png" width="40px" height="23.5px">Grand Turismo</a></div>
+  <div class="logo"><a href="index.html"><img src="/imagens/Logobeta2.png" width="40px" height="23.5px">Grand Turismo</a></div>
   <div id="head-mobile"></div>
   <div class="button"></div>
   <ul>
